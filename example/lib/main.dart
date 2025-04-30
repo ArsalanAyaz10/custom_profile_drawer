@@ -56,7 +56,7 @@ class HomePage extends StatelessWidget {
           ),
         ],
       ),
-      body: const Center(child: Text('Main Content')),
+      body: const Center(child: Text('Custom Profile Drawer Example')),
     );
   }
 }

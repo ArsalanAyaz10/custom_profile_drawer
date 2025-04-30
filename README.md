@@ -1,39 +1,22 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# custom_profile_drawer 🧑‍💼📱
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+A simple and customizable Flutter widget for adding a profile section inside a `Scaffold`'s `Drawer`. You only need to pass user details and routing callbacks — no need to build the UI from scratch!
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
+---
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+## ✨ Features
 
-## Features
+- Prebuilt profile UI inside a drawer.
+- Customizable name, email, profile image, and navigation items.
+- Supports clickable list items that redirect to different pages.
+- Works **only** when used inside a `Scaffold.drawer` property (shows error otherwise).
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+---
 
-## Getting started
+## 📦 Installation
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add this to your `pubspec.yaml`:
 
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```yaml
+dependencies:
+  custom_profile_drawer: ^0.0.1
