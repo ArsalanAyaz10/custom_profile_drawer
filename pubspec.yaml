@@ -1,0 +1,19 @@
+name: custom_profile_drawer
+description: A customizable Flutter profile drawer widget with tappable menu items.
+version: 0.0.1
+homepage: https://github.com/ArsalanAyaz10/custom_profile_drawer
+
+environment:
+  sdk: ">=3.7.2 <4.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
